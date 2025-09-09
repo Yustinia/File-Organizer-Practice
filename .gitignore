@@ -5,6 +5,7 @@ env/
 
 # Ignore idea files
 .idea/
+*.iml
 
 # Ignore cache
 __pycache__
