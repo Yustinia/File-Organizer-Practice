@@ -4,6 +4,7 @@ import time
 organizer = FileOrganizer()
 
 
+# Identify the items/files
 def ident_items():
     while True:
         do_ident_items = input("Identify the items? Y/N: ").strip().lower()
@@ -22,6 +23,7 @@ def ident_items():
     return do_ident_items
 
 
+# Asks whether to sort the files
 def organize():
     while True:
         do_organize_items = input("\nDo you want to organize the files? Y/N: ").strip().lower()
